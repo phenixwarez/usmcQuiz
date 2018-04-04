@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.platoonformationquiz.usmcHistory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question_field1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We use the acronym LMGAS to describe the charteristic of the M!6A2? whatd does each letter represent?"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Lightweight"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Monkey"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Cheap"
+                    android:textAllCaps="false" />
+
+            </LinearLayout>
+
+
+            <RadioGroup
+                android:id="@+id/radiogroup_amphiblanding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="radiobutton_amphibLanding"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Jams"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Chinese"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Magazine Fed"
+                    android:textAllCaps="false" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_amphiblanding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="radiobutton_amphibLanding"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Leading"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Metsl"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Placement"
+                    android:textAllCaps="false" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_amphiblanding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="radiobutton_amphibLanding"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Glock "
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Japanese"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Gas Operated"
+                    android:textAllCaps="false" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_amphiblanding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="radiobutton_amphibLanding"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Air Cooled"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Simple"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Shoulder Fire"
+                    android:textAllCaps="false" />
+
+            </RadioGroup>
+            <RadioGroup
+                android:id="@+id/radiogroup_amphiblanding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="radiobutton_amphibLanding"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Locking"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Extracting"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Searing"
+                    android:textAllCaps="false" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/radiogroup_amphiblanding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="radiobutton_amphibLanding"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Centeral"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Reciever"
+                    android:textAllCaps="false" />
+
+                <CheckBox
+                    android:id="@+id/radio_nasau"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Good"
+                    android:textAllCaps="false" />
+
+            </RadioGroup>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="bottom"
+                android:background="@color/colorAccent"
+                android:text="Submit"
+                android:textAllCaps="true" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
